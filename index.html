@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: content-box;
+        }
+        body{
+            background-color: black;
+            position: relative;
+            height: 100vh;
+            margin: 25px;
+
+        }
+        .digitalClock{
+            color: rgb(13, 242, 223);
+            position: absolute;
+            font-size: 100px;
+            top: 50%;
+            left: 25%;
+            transform: translate(0, -50%);
+            text-shadow: 2px 2px 20px rgb(13, 242, 223);
+        }
+    </style>
+</head>
+<body>
+    <div id="digitalClock" class="digitalClock">
+    </div>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
